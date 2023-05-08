@@ -1,0 +1,21 @@
+{
+	"vue-start": {
+		"prefix": ["vue"],
+		"body": [
+			"const { createApp } = Vue",
+
+			"createApp({",
+			"data() {",
+			"return {",
+			"var1: '',",
+			"var2: ''",
+			"}",
+			"},",
+			"methods: {",
+			"//metodi",
+			"}",
+			"}).mount('#app')"
+		],
+		"description": "A starting vue template code"
+	}
+}
